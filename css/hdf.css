@@ -1,9 +1,22 @@
 html,body{
     margin: 0;
+    padding-top: 5rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-h1{
-    font-size: 5em;
-    color: black;
+button{
+    transition: ease-in-out .2s;
+    font-size: 2rem;
+    line-height: 4rem;
+    border: thin solid black;
+    background: transparent;
+}
+button:hover{
+    transition: ease-in-out .2s;
+    font-size: 5rem;
+    line-height: 10rem;
+}
+button:focus{
+    transition: ease-in-out .1s;
+    background: lightgray;
 }
